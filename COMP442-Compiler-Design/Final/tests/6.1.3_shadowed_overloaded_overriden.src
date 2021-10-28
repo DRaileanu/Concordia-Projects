@@ -1,0 +1,27 @@
+// ====== Class declarations ====== //
+class LINEAR {
+    integer x;
+    public func foo():void ;
+};
+
+class POLYNOMIAL inherits LINEAR{
+    integer x;
+    private func foo():void;
+};
+
+func LINEAR::foo() : void 
+{
+    var{
+        integer a;
+    }
+}
+
+func POLYNOMIAL::foo() : void 
+{
+    var{
+        integer b;
+    }
+}
+
+
+main{}

@@ -1,0 +1,41 @@
+func returnStringTest() : string
+{
+  var 
+  {
+    string s;
+  }
+
+  s = "this is a valid string";
+  return (s);
+}
+
+func returnIntTest() : integer
+{
+  var
+  {
+    integer n;
+  }
+
+  n = 100;
+  return (n);
+}
+
+func noFuncStatement () : void
+{
+  
+}
+
+// main funtion to test above
+main 
+{
+  var {
+    float f;
+    integer n;
+  }
+
+  f = 3.1415;
+  n = returnIntTest();
+
+  write(returnStringTest());
+  write(n);
+}

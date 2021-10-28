@@ -1,0 +1,105 @@
+// ====== Class declarations ====== //
+class TestClass {
+    private int a;
+    private float a;
+    public float b;
+    string c;
+    private myClass d[3][2];
+
+    func eval(float A, float B) : int;
+    func eval(string A) : int;
+    public func build(float A, float B) : int;
+    func eval(float A, float B) : int;
+    func eval(float A, int B) : int;
+};
+
+class B {};
+class B {};
+class B {};
+class B {};
+class TestClass {};
+class C inherits B {};
+
+class A inherits B,C,D {
+    private int a2;
+    private string a2;
+    public float b;
+    string c;
+    private myClass d[3][2];
+
+    public func eval(float A, float B) : int;
+    public func eval(float A, float B) : int;
+    public func build(float A, float B) : int;
+};
+
+// ====== Function Definitions ====== //
+func freeFunc(int a[2], float b) : returnTypeHere {
+  var {
+    integer x;
+    integer x;
+    integer y;
+    integer Y;
+  }
+  return (0);
+}
+
+func freeFunc(int a[2]) : returnTypeHere {
+  return (0);
+}
+
+func freeFunc(int a[3]) : int {
+  return (0);
+}
+
+func freeFunc(int a[], float b) : float {
+  return (0);
+}
+
+func TestClass::build() : int {
+  var {
+    integer x;
+    string y;
+  }
+
+  return (0);
+}
+
+func TestClass::build(int x) : int {}
+func TestClass::build(int x) : int {}
+func TestClass::build() : void {}
+func TestClass::build(int x) : void {}
+func TestClass::build(int x, int y) : void {}
+
+func TestClass::nodefinition() : int {
+  var {
+    integer x;
+    string y;
+  }
+
+  return (0);
+}
+
+func TestClass::eval() : int {
+  var {
+    integer x;
+    string y;
+  }
+
+  return (0);
+}
+
+// ====== main ====== //
+main
+{
+  var
+  {
+    TestClass testClass;
+    TestClass TestClass;
+  }
+
+  counter = 1;
+  while (counter <= 10) {
+    write(counter);
+    counter = counter + 1;
+  };
+}

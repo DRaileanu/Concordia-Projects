@@ -1,0 +1,11 @@
+main{
+    while(evaluate(x,y))
+        if(x.foo(2) & y.foo()) then
+            break;
+        else{
+            x=x.bar(y);
+            y.bar();
+            continue;
+        };
+;
+}

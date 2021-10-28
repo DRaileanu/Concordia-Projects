@@ -1,0 +1,48 @@
+main {
+  var {
+    integer i;
+    string s;
+    integer x;
+    integer o;
+    integer p;
+  }
+
+  i = 5 * 6;
+  x = 1;
+  o = 0;
+  p = 1;
+
+  if ((5 + 6) * 2 >= 22) then {
+    write("addop multop relop parentheses");
+  } else ;
+
+  if ((5 + 6 + (1)) * 2 <= 24) then {
+    write("nested parentheses");
+  } else ;
+
+  if ((5 + +6 + (1)) * 2 <= -24) then {
+    write("involving sign");
+  } else ;
+
+  if ((5 + 6 + (1)) * 2 <> -24) then {
+    write("involving noteq");
+  } else ;
+
+  if (!(x + y == 5)) then {
+    write("involving not");
+  } else ;
+
+  if (o & p | (x | i)) then {
+    write("and or");
+  } else ;
+
+  if (a[i]) then {
+    write("hey");
+  } else ;
+
+  // Ternary operator
+  a = ?[ i > (o + x) : 10 : 20 ];
+
+  // Everything
+  a = ?[ (5 + (6 * (5)) >= 2) | !(x == y) | (x <> -2) | (getSomething()) | (a[i] == 10) : 2 : 3];
+}

@@ -1,0 +1,9 @@
+main{
+    read(x);
+    read(y);
+    write((x+y)*(x-y)/2);
+    write(2);
+    write("hello");
+    return(x|y & x-2==0);
+    return(0);
+}

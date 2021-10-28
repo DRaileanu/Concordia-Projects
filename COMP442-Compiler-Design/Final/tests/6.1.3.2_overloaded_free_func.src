@@ -1,0 +1,35 @@
+func foo() : void
+{
+    var{
+        float x;
+    }
+}
+
+func foo(integer x) : integer
+{
+    var{
+        integer a;
+    }
+}
+
+func foo(integer x) : float
+{
+    var{
+        integer b;
+    }
+}
+
+func foo(LINEAR x) : void
+{}
+
+func foo(LINEAR x, integer y) : void
+{}
+
+func foo(LINEAR x[2]) : void
+{}
+
+func foo(LINEAR x[2][]) : void
+{}
+
+
+main{}

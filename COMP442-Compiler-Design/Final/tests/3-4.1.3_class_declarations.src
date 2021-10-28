@@ -1,0 +1,104 @@
+// ====== Class declarations ====== //
+class POLYNOMIAL {
+    public integer a;
+    private float b;
+    string c;
+	public func evaluate(float x) : float;
+    private func evaluate2(integer x) : integer;
+    func evaluate3(string x) : string;
+};
+
+class LINEAR inherits POLYNOMIAL {
+	public float a;
+	private string b;
+	integer c;
+
+	public func build(float A, float B) : LINEAR;
+	private func evaluate(float x) : float;
+};
+
+class QUADRATIC inherits POLYNOMIAL, LINEAR {
+	public float a;
+	private float b;
+    float c;
+	
+	public func build(float A, float B, float C) : QUADRATIC;
+	public func evaluate(float x) : float;
+};
+
+// ====== Function Definitions ====== //
+func freeFunc() : void
+{
+}
+
+func LINEAR::evaluate(float x) : float 
+{
+  var
+  {
+    float result;
+  }
+  result = 0.0;
+  result = a * x + b;
+  return (result);
+};
+  
+func QUADRATIC::evaluate(float x) : float
+{
+  var    
+  {
+    float result;
+  }
+  //Using Horner's method
+  result = a;
+  result = result * x + b;
+  result = result * x + c;
+  return (result);
+}
+  
+func LINEAR::build(float A, float B) : LINEAR 
+{
+  var 
+  {
+    LINEAR new_function;
+  }
+  new_function.a = A;
+  new_function.b = B;
+  return (new_function);
+}
+  
+func QUADRATIC::build(float A, float B, float C) : QUADRATIC
+{
+  var
+  {
+    QUADRATIC new_function;
+  }
+  new_function.a = A;
+  new_function.b = B;
+  new_function.c = C;
+  return (new_function);
+}
+  
+
+// ====== main ====== //
+main
+{
+  var
+  {
+    linear f1;
+    quadratic f2;
+    integer counter;
+  }
+  f1 = f1.build(2, 3.5);
+  f2 = f2.build(-2.0, 1.0, 0.0);
+  counter = 1;
+	
+  while(counter <= 10)
+  {
+    write(counter);
+    write(f1.evaluate(counter));
+    write(f2.evaluate(counter));
+    continue;
+  };
+
+  
+}

@@ -1,0 +1,46 @@
+main{
+    while(a>b)
+        if(a==0) then
+            break;
+        else
+            a=a-1;
+        ;
+    ;
+
+    while(a>b){
+        if(a==0) then{
+            b=b+1;
+            break;
+        }
+        else {
+            a=a-1;
+            continue;
+        };
+    };
+
+    while(a>b){
+        if(a==0) then{
+            while(c<d) then
+                if(c==1) then
+                    break;
+                else
+                    c=c+1;
+                ;
+            ;
+            if(a==c) then
+                break;
+            else
+            ;
+            b=b+1;
+            break;
+        }
+        else {
+            if(a==c) then
+                break;
+            else
+            ;
+            a=a-1;
+            continue;
+        };
+    };
+}

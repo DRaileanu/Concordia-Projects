@@ -1,0 +1,30 @@
+==	+	|	(	;	if 	public	read
+<>	-	&	)	,	then	private	write
+<	*	!	{	.	else	func	return
+>	/	?	}	:	integer	var	main
+<=	=		[	::	float	class	inherits
+>=			]		string	while	break
+					void		continue
+                
+===
+====
+<><><
+><><
+<>=
+:::
+::::
+
+++
+--
+**
+||
+(())
+{{}}
+[[]]
+;;
+,,
+..
+
+ifif
+ifthen
+

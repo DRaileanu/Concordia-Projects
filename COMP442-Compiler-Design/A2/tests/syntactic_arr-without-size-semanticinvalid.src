@@ -1,0 +1,9 @@
+// The grammar allows [] in a variable declaration, however, it will be found to be semantically invalid.
+
+main {
+  var {
+    integer arr[];
+  }
+
+  write("here");
+}

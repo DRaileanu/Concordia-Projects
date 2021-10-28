@@ -1,0 +1,19 @@
+func something(integer arr[2][2], integer size1, integer size2) : void {}
+func something2(integer arr, integer size1, integer size2) : void {}
+
+// main funtion to test above
+main 
+{
+  var 
+  {
+    integer arr[2][2];
+  }
+
+  arr[0][0] = 64;
+  arr[0][1] = 34;
+  arr[1][0] = 64;
+  arr[1][1] = 34;
+
+  something(arr[2][2], 2, 2);
+  something2(arr, 2, 2);
+}

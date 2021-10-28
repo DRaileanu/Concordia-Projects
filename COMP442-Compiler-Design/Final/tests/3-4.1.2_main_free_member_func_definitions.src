@@ -1,0 +1,48 @@
+// ====== Class declarations ====== //
+class POLYNOMIAL {
+	func evaluate(float x) : float;
+};
+
+// ====== Function Definitions ====== //
+func freeFunc(integer x) : integer
+{
+    var{
+        integer y;
+    }
+    read(y);
+    write(x+y);
+    return(x+y);
+}
+
+func POLYNOMIAL::evaluate(float x) : float 
+{
+  var
+  {
+    float result;
+  }
+  result = 0.0;
+  result = a * x + b;
+  return (result);
+}
+
+// ====== main ====== //
+main
+{
+  var
+  {
+    POLYNOMIAL p;
+    integer i;
+
+  }
+  i = freeFunc(5);
+  counter = 1;
+	
+  while(counter <= 10)
+  {
+    write(counter);
+    write(p.evaluate(counter));
+    continue;
+  };
+
+  
+}

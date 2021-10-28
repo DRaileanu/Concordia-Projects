@@ -1,0 +1,45 @@
+class POLYNOMIAL{
+    public func foo() : void;
+    public func foo(integer x) : integer;
+    public func foo(integer x) : float;
+    public func foo(LINEAR x) : void;
+    public func foo(LINEAR x, integer y) : void;
+    public func foo(LINEAR x[2]) : void;
+    public func foo(LINEAR x[2][]) : void;
+};
+
+func POLYNOMIAL::foo() : void
+{
+    var{
+        float x;
+    }
+}
+
+func POLYNOMIAL::foo(integer x) : integer
+{
+    var{
+        integer a;
+    }
+}
+
+func POLYNOMIAL::foo(integer x) : float
+{
+    var{
+        integer b;
+    }
+}
+
+func POLYNOMIAL::foo(LINEAR x) : void
+{}
+
+func POLYNOMIAL::foo(LINEAR x, integer y) : void
+{}
+
+func POLYNOMIAL::foo(LINEAR x[2]) : void
+{}
+
+func POLYNOMIAL::foo(LINEAR x[2][]) : void
+{}
+
+
+main{}

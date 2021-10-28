@@ -1,0 +1,27 @@
+/* sort the array */
+func returnStringTest() : void 
+{
+  var 
+  {
+    string s;
+  }
+  s = "this is a valid string";
+  return (s);
+}
+
+func noStatement () : void
+{
+  
+}
+
+// main funtion to test above
+main 
+{
+  write(returnStringTest());
+}
+
+// main funtion to test above
+main 
+{
+  write(returnStringTest());
+}

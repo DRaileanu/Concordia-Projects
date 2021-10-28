@@ -1,0 +1,9 @@
+main{
+    var{
+        integer a;
+        float b;
+        string c;
+        POLYNOMIAL d;
+        POLYNOMIAL e[2];
+    }
+}

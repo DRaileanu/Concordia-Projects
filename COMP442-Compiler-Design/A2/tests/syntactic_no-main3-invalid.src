@@ -1,0 +1,9 @@
+// ====== Class declarations ====== //
+class POLYNOMIAL {
+	public func evaluate(float x) : float;
+};
+
+// ====== Function Definitions ====== //
+func POLYNOMIAL::evaluate(float x) : float {
+  return (0);
+}

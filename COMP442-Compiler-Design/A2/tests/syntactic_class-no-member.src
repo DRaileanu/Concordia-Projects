@@ -1,0 +1,7 @@
+// ====== Class declarations ====== //
+class POLYNOMIAL {
+};
+
+main {
+  write("No member class");
+}

@@ -1,0 +1,13 @@
+//inline comment1
+abc//inline comment2
+//inline comment3 //still part of comment3
+
+empty_comment_follows //
+didnt_carry_over_to_next_line
+
+//typing \n still keeps it as comment
+//* inline comment and not block */ still comment
+//any ch@racters ~ work # here ^%$
+
+/ /not_comment
+abc/ /not_comment

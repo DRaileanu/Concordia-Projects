@@ -1,0 +1,5 @@
+bin
+out
+/bin1/
+/*.project
+/*.classpath

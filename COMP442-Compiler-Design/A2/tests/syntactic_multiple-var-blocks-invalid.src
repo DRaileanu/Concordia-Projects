@@ -1,0 +1,15 @@
+main {
+  var {
+    integer i;
+    string s;
+    integer x;
+  }
+
+  var {
+    integer i;
+    string s;
+    integer x;
+  }
+
+  x = 5;
+}

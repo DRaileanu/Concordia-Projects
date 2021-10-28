@@ -1,0 +1,30 @@
+// ====== Class declarations ====== //
+class POLYNOMIAL {
+
+	public func evaluate(float x) : float;
+};
+
+
+
+// ====== Function Definitions ====== //
+func POLYNOMIAL::evaluate2(float a) : float
+{
+    x = 5;
+    return (0);
+}
+
+func LINEAR::evaluate(float a) : float
+{
+    return (0.0);
+}
+
+
+
+// ====== main ====== //
+main
+{
+    var{
+        wgwg l;
+    }
+    a = 5;
+}

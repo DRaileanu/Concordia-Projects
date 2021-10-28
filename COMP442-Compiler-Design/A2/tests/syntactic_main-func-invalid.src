@@ -1,0 +1,3 @@
+func main() : void {}
+func test() : void {}
+main {}

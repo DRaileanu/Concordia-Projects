@@ -1,0 +1,50 @@
+func oneParameter(integer one) : void {
+  write(one);
+}
+
+main {
+  var {
+    integer i;
+    string s;
+    integer x;
+    integer o;
+    integer a;
+    integer arr[2][2];
+  }
+
+  i = 1;
+  x = 5;
+  o = 100;
+  arr[0][0] = 5;
+  arr[0][1] = 6;
+  arr[1][0] = 7;
+  arr[1][1] = 8;
+
+  oneParameter(i);
+
+  while (i) {
+    write("Infinite loop");
+  };
+
+  while (i) {};
+
+  read(s);
+
+  if (x == 5) then {
+    write("x is 5");
+  } else {
+    write("x is not 5");
+  };
+
+  while (i) {
+    if (x == 5) then {
+      continue;
+    } else ;
+  };
+
+  while (i) {
+    if (x == o) then {
+      break;
+    } else ;
+  };
+}

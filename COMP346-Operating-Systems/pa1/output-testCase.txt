@@ -1,0 +1,34 @@
+
+ Activating the network ...
+
+ Initializing the server ...
+
+ Activating network components for server...
+
+ Inializing the Accounts database ...
+
+ Connecting server to network ...
+
+ Initializing client sending application ...
+
+ Activating network components for client...
+
+ Initializing the transactions ... 
+
+ Connecting client to network ...
+
+ Initializing client receiving application ...
+
+ Terminating client sending thread - Running time 0 millisecond
+
+ Account number 31718 Account Balance 100.0 Message done
+
+ Account number 31718 Account Balance 20.0 Message done
+
+ Account number 31718 Account Balance 20.0 Message done
+
+ Terminating server thread -  Running time 10 milliseconds
+
+ Terminating network thread - Client disconnected Server disconnected
+
+ Terminating client receive thread - Running time 5 millisecond

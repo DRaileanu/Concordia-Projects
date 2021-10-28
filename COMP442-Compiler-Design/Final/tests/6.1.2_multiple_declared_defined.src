@@ -1,0 +1,68 @@
+// ====== Class declarations ====== //
+class POLYNOMIAL {
+    float a;
+    float b;
+    float a;
+    integer b;
+	public func evaluate(float x) : float;
+    private func evaluate(float x) : integer;
+};
+
+class POLYNOMIAL {
+    float a;
+    float b;
+    float a;
+    integer b;
+	public func evaluate(float x) : float;
+    private func evaluate(float x) : integer;
+};
+
+
+
+
+// ====== Function Definitions ====== //
+func freeFunc(float a) : float
+{
+    var{
+        float x;
+        integer x;
+    }
+    return(x+a);
+}
+func freeFunc(float b) : integer
+{
+    var{
+        integer y;
+        float y;
+    }
+    return(x+y);
+}
+
+func POLYNOMIAL::evaluate(float z) : float
+{
+    var{
+        float x;
+        integer x;
+    }
+    return(x+z);
+}
+
+func POLYNOMIAL::evaluate(float z) : integer
+{
+    var{
+        float x;
+        integer x;
+    }
+    return(x+z);
+}
+
+
+// ====== main ====== //
+main
+{
+    var{
+        float x;
+        integer x;
+    }
+    return(0);
+}

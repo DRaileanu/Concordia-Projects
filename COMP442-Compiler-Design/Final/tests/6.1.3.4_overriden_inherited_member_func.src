@@ -1,0 +1,51 @@
+class POLYNOMIAL{
+    public func foo() : void;
+    public func bar(integer x) : integer;
+    public func baz(string c) : void;
+};
+
+class LINEAR inherits POLYNOMIAL{
+    private func foo() : void;
+    private func bar(integer y) : float;
+};
+
+class QUADRATIC inherits LINEAR{
+    private func baz(string c) : void;
+};
+
+func POLYNOMIAL::foo() : void
+{
+    var{
+        float x;
+    }
+}
+
+func POLYNOMIAL::bar(integer x) : integer
+{
+    var{
+        integer a;
+    }
+    return (a+x);    
+}
+
+func LINEAR::foo() : void
+{
+    var{
+        integer b;
+    }
+}
+
+func LINEAR::bar(integer y) : float
+{
+    var{
+        float b;
+    }
+    return (b+y);
+}
+
+func QUADRATIC::baz(string c) : void
+{
+    write(c);
+}
+
+main{}

@@ -1,0 +1,8 @@
+// ====== Class declarations ====== //
+class POLYNOMIAL {
+	public func evaluate(float x) : float;
+};
+
+main {
+  write("Hello");
+}

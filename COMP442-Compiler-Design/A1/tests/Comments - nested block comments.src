@@ -1,0 +1,40 @@
+/*/*1 line nested block comment */ still part of comment*/
+
+/*level1 nested comment 
+    /*level2
+        /*level3 
+        */
+    level2
+    */level1
+*/ outsideComment
+
+/*lvl1
+    /*lvl2
+        /*lvl3 
+        */
+    lvl2
+    /*lvl3/*lvl4 */level3
+        */lvl2
+    */lvl1
+*/ outsideComment
+
+/*lvl1 
+    //*lvl2 and not inline */ lvl1
+*/outsideComment
+
+/*/*/**/*/*/
+/*/*/*/*/*5*/*/3/*4*/*/*/1/*2*/*/out
+
+/*lvl1/*lvl2 /
+* lvl2 *
+/lvl2 */lvl1*/out
+
+/*/**2*/*/
+/*/*2*//1*/
+
+/*/*2/*/3*/*/*/
+/*/*/*3*/*2*/*/
+
+/*/* @ny # characters ~ work here! &^$%*/*/
+
+/*/*/*not closing all nested comments */

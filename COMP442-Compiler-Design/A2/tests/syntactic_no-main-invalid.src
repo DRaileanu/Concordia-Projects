@@ -1,0 +1,3 @@
+func test() : integer {
+  return (0);
+}

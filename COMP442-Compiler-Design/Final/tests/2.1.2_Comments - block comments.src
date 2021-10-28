@@ -1,0 +1,21 @@
+/* 1 line block comment */
+/* multi
+line
+block
+comment
+*/
+
+/* cmt /
+*still cmt *
+/still cmt
+*/ outside_comment
+
+/*
+double slash is not inline comment inside block comment
+// */outsideComment
+
+/**/
+
+/* @ny # characters ~ work here! &^$% */
+
+/*not closing block comment
