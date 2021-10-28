@@ -1,0 +1,8 @@
+prefix=/home/dan/sc_intro_ws/devel
+
+Name: intro_task
+Description: Description of intro_task
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
